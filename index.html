@@ -96,21 +96,30 @@
             </div>
 
             
-                <div class="row">
-                    <div class="col-6 blue">
-                        <div class="row flex">
-                            <div class="green-2">Nested 2 col</div>
-                            <div class="green-2">Nested 2 col</div>
-                            <div class="green-8">Nested 8 col</div>
+            <div class="row">
+                <div class="col-6 blue">
+                    <div class="row row-green flex">
+                        <div class="green-2 flex">
+                            <span class="text">Nested 2 col</span>
                         </div>
-
-                    </div>
-                    <div class="col-6 blue">
-                        <div class="row flex">
-                            <div class="green-6"></div>
-                            <div class="green-6"></div>
+                        <div class="green-2 flex">
+                            <span class="text">Nested 2 col</span>
+                        </div>
+                        <div class="green-8 flex">
+                            <span class="text">Nested 8 col</span>
                         </div>
                     </div>
+                </div>
+                <div class="col-6 blue">
+                    <div class="row row-green">
+                        <div class="green-6 flex">
+                            <span class="text">Nested 6 col</span>
+                        </div>
+                        <div class="green-6 flex">
+                            <span class="text">Nested 6 col</span>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -183,8 +192,20 @@
 
     <h1>Nested</h1>
     <div class="row">
-        <div class="col-7 flex"></div>
-        <div class="col-5 flex"></div>
+        <div class="col-6 blue">
+            <div class="row row-green flex">
+                <div class="green-3"></div>
+                <div class="green-6"></div>
+                <div class="green-3"></div>
+            </div>
+        </div>
+        <div class="col-6 blue">
+            <div class="row row-green flex">
+                <div class="green-6"></div>
+                <div class="green-6"></div>
+            </div>
+        </div>
+        </div>
     </div>
 
     <h1>Alignment</h1>
@@ -199,7 +220,7 @@
             <span class="text">left</span>
         </div>
     </div>
-    
+
     <div class="row">
         <div class="col-6 height flex"></div>
         <div class="col-6 flex"></div>
@@ -212,5 +233,25 @@
         <div class="col-6 height flex"></div>
         <div class="col-6 flex"></div>
     </div>
+
+    <h1>justify Content</h1>
+    <h3>Space Around</h3>
+    <div class="row">
+        <div class="col-12 height flex-up">
+            <div class="green"></div>
+            <div class="green"></div>
+            <div class="green"></div>
+        </div>
+    </div>
+    <h3>Space Between</h3>
+    <div class="row">
+        <div class="col-12 height flex-down">
+            <div class="green"></div>
+            <div class="green"></div>
+            <div class="green"></div>
+        </div>
+    </div>
+
+
 </body>
 </html>
